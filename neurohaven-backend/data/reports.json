@@ -1,0 +1,74 @@
+[
+  {
+    "id": "rep-447527120",
+    "doctor_id": "3f1b4acd-a917-4a3d-9c19-277df3f22d2d",
+    "patient_id": "0b6cfcf9-2562-44d6-bf5b-0e4516bf380d",
+    "patient_name": "MUTAAL IMRAN",
+    "risk_level": "unknown",
+    "period": "2026-07-14 to 2026-07-21",
+    "average_score": 53,
+    "total_sessions": 20,
+    "average_difficulty": 0.1,
+    "generated_at": "2026-07-21T04:45:45.920Z"
+  },
+  {
+    "id": "rep-150475072",
+    "doctor_id": "3f1b4acd-a917-4a3d-9c19-277df3f22d2d",
+    "patient_id": "9ef9ebdd-7203-483f-ab0a-1555e0bcc1bf",
+    "patient_name": "Muhammad Haris",
+    "risk_level": "unknown",
+    "period": "2026-07-14 to 2026-07-21",
+    "average_score": 14,
+    "total_sessions": 33,
+    "average_difficulty": 3,
+    "generated_at": "2026-07-21T05:29:47.953Z"
+  },
+  {
+    "id": "rep-489711760",
+    "doctor_id": "3f1b4acd-a917-4a3d-9c19-277df3f22d2d",
+    "patient_id": "9ef9ebdd-7203-483f-ab0a-1555e0bcc1bf",
+    "patient_name": "Muhammad Haris",
+    "risk_level": "unknown",
+    "period": "2026-06-25 to 2026-07-25",
+    "average_score": 13,
+    "total_sessions": 34,
+    "average_difficulty": 2.9,
+    "generated_at": "2026-07-25T10:28:48.659Z"
+  },
+  {
+    "id": "rep-579216773",
+    "doctor_id": "3f1b4acd-a917-4a3d-9c19-277df3f22d2d",
+    "patient_id": "0b6cfcf9-2562-44d6-bf5b-0e4516bf380d",
+    "patient_name": "MUTAAL IMRAN",
+    "risk_level": "unknown",
+    "period": "2026-04-26 to 2026-07-25",
+    "average_score": 19,
+    "total_sessions": 41,
+    "average_difficulty": 0.9,
+    "generated_at": "2026-07-25T10:30:24.830Z"
+  },
+  {
+    "id": "rep-701213163",
+    "doctor_id": "3f1b4acd-a917-4a3d-9c19-277df3f22d2d",
+    "patient_id": "0b6cfcf9-2562-44d6-bf5b-0e4516bf380d",
+    "patient_name": "MUTAAL IMRAN",
+    "risk_level": "unknown",
+    "period": "2026-07-18 to 2026-07-25",
+    "average_score": 19,
+    "total_sessions": 41,
+    "average_difficulty": 0.9,
+    "generated_at": "2026-07-25T11:00:32.216Z"
+  },
+  {
+    "id": "rep-933437121",
+    "doctor_id": "6bfa38da-d23a-4661-ac64-593a19b42fb2",
+    "patient_id": "9ef9ebdd-7203-483f-ab0a-1555e0bcc1bf",
+    "patient_name": "Muhammad Haris",
+    "risk_level": "severe",
+    "period": "2026-07-19 to 2026-07-26",
+    "average_score": 20,
+    "total_sessions": 21,
+    "average_difficulty": 3.3,
+    "generated_at": "2026-07-26T10:28:00.072Z"
+  }
+]

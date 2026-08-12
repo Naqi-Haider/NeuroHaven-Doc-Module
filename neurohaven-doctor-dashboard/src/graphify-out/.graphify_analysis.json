@@ -1,0 +1,427 @@
+{
+  "communities": {
+    "0": [
+      "alerts_page",
+      "alerts_page_alertspage",
+      "alerts_page_getrelativedate",
+      "alerts_page_initialalerts",
+      "lib_utils_cn",
+      "patients_patientfilters",
+      "patients_patientfilters_patientfiltersprops",
+      "ui_dialog",
+      "ui_dialog_dialog",
+      "ui_dialog_dialogclose",
+      "ui_dialog_dialogcontent",
+      "ui_dialog_dialogdescription",
+      "ui_dialog_dialogfooter",
+      "ui_dialog_dialogheader",
+      "ui_dialog_dialogoverlay",
+      "ui_dialog_dialogportal",
+      "ui_dialog_dialogtitle",
+      "ui_dialog_dialogtrigger",
+      "ui_dropdown_menu",
+      "ui_dropdown_menu_dropdownmenu",
+      "ui_dropdown_menu_dropdownmenucheckboxitem",
+      "ui_dropdown_menu_dropdownmenucontent",
+      "ui_dropdown_menu_dropdownmenugroup",
+      "ui_dropdown_menu_dropdownmenuitem",
+      "ui_dropdown_menu_dropdownmenulabel",
+      "ui_dropdown_menu_dropdownmenuportal",
+      "ui_dropdown_menu_dropdownmenuradiogroup",
+      "ui_dropdown_menu_dropdownmenuradioitem",
+      "ui_dropdown_menu_dropdownmenuseparator",
+      "ui_dropdown_menu_dropdownmenushortcut",
+      "ui_dropdown_menu_dropdownmenusub",
+      "ui_dropdown_menu_dropdownmenusubcontent",
+      "ui_dropdown_menu_dropdownmenusubtrigger",
+      "ui_dropdown_menu_dropdownmenutrigger",
+      "ui_select",
+      "ui_select_select",
+      "ui_select_selectcontent",
+      "ui_select_selectgroup",
+      "ui_select_selectitem",
+      "ui_select_selectlabel",
+      "ui_select_selectscrolldownbutton",
+      "ui_select_selectscrollupbutton",
+      "ui_select_selectseparator",
+      "ui_select_selecttrigger",
+      "ui_select_selectvalue",
+      "ui_separator",
+      "ui_separator_separator",
+      "ui_skeleton",
+      "ui_skeleton_skeleton"
+    ],
+    "1": [
+      "layout_topbar",
+      "layout_topbar_topbar",
+      "layout_topbar_topbarprops",
+      "overview_activecarepathways",
+      "overview_activecarepathways_activecarepathways",
+      "overview_activecarepathways_activecarepathwaysprops",
+      "overview_activecarepathways_filtertype",
+      "overview_activecarepathways_patientdetailsmap",
+      "overview_alertpanel_alertpanelprops",
+      "overview_page",
+      "overview_page_initialalerts",
+      "overview_page_initialpatients",
+      "overview_page_overviewpage",
+      "overview_situationstrip",
+      "overview_situationstrip_situationstrip",
+      "overview_situationstrip_situationstripprops",
+      "patients_page",
+      "patients_page_initialpatients",
+      "patients_page_patientspage",
+      "patients_patientcard_patientcard",
+      "patients_patientfilters_patientfilters",
+      "shared_emptystate",
+      "shared_emptystate_emptystate",
+      "shared_emptystate_emptystateprops",
+      "shared_pageheader",
+      "shared_pageheader_pageheader",
+      "shared_pageheader_pageheaderprops",
+      "types_alert",
+      "types_alert_alert",
+      "types_alert_alertcategory",
+      "types_alert_alertseverity",
+      "ui_button",
+      "ui_button_button",
+      "ui_button_buttonvariants"
+    ],
+    "2": [
+      "overview_cognitivetrendchart",
+      "overview_cognitivetrendchart_cognitivetrendchart",
+      "overview_cognitivetrendchart_cognitivetrendchartprops",
+      "overview_cognitivetrendchart_customtooltip",
+      "overview_cognitivetrendchart_customtooltipprops",
+      "overview_metriccard",
+      "overview_metriccard_metriccard",
+      "overview_metriccard_metriccardprops",
+      "overview_recentpatientstable",
+      "overview_recentpatientstable_recentpatientstable",
+      "overview_recentpatientstable_recentpatientstableprops",
+      "overview_temporalcontext_temporalcontextprops",
+      "patients_patientcard",
+      "patients_patientcard_patientcardprops",
+      "shared_riskbadge",
+      "shared_riskbadge_riskbadge",
+      "shared_riskbadge_riskbadgeprops",
+      "types_doctor_patientlink",
+      "types_patient",
+      "types_patient_cognitiveprofile",
+      "types_patient_patient",
+      "types_patient_patientwithlink",
+      "types_patient_risklevel",
+      "ui_card",
+      "ui_card_card",
+      "ui_card_cardaction",
+      "ui_card_cardcontent",
+      "ui_card_carddescription",
+      "ui_card_cardfooter",
+      "ui_card_cardheader",
+      "ui_card_cardtitle",
+      "ui_progress",
+      "ui_progress_progress"
+    ],
+    "3": [
+      "auth_loginform_loginform",
+      "auth_registerform_registerform",
+      "dashboard_layout",
+      "dashboard_layout_dashboardlayout",
+      "hooks_useauth",
+      "hooks_useauth_useauth",
+      "layout_dashboardshell",
+      "layout_dashboardshell_dashboardshell",
+      "layout_dashboardshell_dashboardshellprops",
+      "layout_sidebar_sidebar",
+      "lib_supabase",
+      "lib_supabase_supabase",
+      "settings_page_settingspage",
+      "stores_authstore",
+      "stores_authstore_authstate",
+      "stores_authstore_useauthstore",
+      "types_doctor",
+      "types_doctor_doctor",
+      "ui_sheet",
+      "ui_sheet_sheet",
+      "ui_sheet_sheetclose",
+      "ui_sheet_sheetcontent",
+      "ui_sheet_sheetdescription",
+      "ui_sheet_sheetfooter",
+      "ui_sheet_sheetheader",
+      "ui_sheet_sheetoverlay",
+      "ui_sheet_sheetportal",
+      "ui_sheet_sheettitle",
+      "ui_sheet_sheettrigger"
+    ],
+    "4": [
+      "auth_loginform",
+      "auth_loginform_loginschema",
+      "auth_loginform_loginvalues",
+      "auth_registerform",
+      "auth_registerform_registerschema",
+      "auth_registerform_registervalues",
+      "login_page",
+      "login_page_loginpage",
+      "login_page_metadata",
+      "register_page",
+      "register_page_metadata",
+      "register_page_registerpage",
+      "ui_form",
+      "ui_form_formcontrol",
+      "ui_form_formdescription",
+      "ui_form_formfield",
+      "ui_form_formfieldcontext",
+      "ui_form_formfieldcontextvalue",
+      "ui_form_formitem",
+      "ui_form_formitemcontext",
+      "ui_form_formitemcontextvalue",
+      "ui_form_formlabel",
+      "ui_form_formmessage",
+      "ui_form_useformfield",
+      "ui_input",
+      "ui_input_input"
+    ],
+    "5": [
+      "patientid_page",
+      "patientid_page_patientdatabase",
+      "patientid_page_patientdetailspage",
+      "patientid_page_patientdetailspageprops",
+      "reports_page",
+      "reports_page_connectedpatients",
+      "reports_page_historicalreports",
+      "reports_page_reportspage",
+      "types_game",
+      "types_game_cognitivetrend",
+      "types_game_gamesession",
+      "types_game_gametype",
+      "types_report",
+      "types_report_cognitivereport",
+      "ui_table",
+      "ui_table_table",
+      "ui_table_tablebody",
+      "ui_table_tablecaption",
+      "ui_table_tablecell",
+      "ui_table_tablefooter",
+      "ui_table_tablehead",
+      "ui_table_tableheader",
+      "ui_table_tablerow"
+    ],
+    "6": [
+      "layout_sidebar",
+      "layout_sidebar_sidebarprops",
+      "lib_utils",
+      "overview_temporalcontext",
+      "overview_temporalcontext_temporalcontext",
+      "overview_temporalcontext_trenddata",
+      "overview_temporalcontext_trendpoint",
+      "patients_patientdetaildrawer",
+      "patients_patientdetaildrawer_patientdetaildrawer",
+      "patients_patientdetaildrawer_patientdetaildrawerprops",
+      "patients_patientdetaildrawer_patientmetrics",
+      "ui_avatar",
+      "ui_avatar_avatar",
+      "ui_avatar_avatarbadge",
+      "ui_avatar_avatarfallback",
+      "ui_avatar_avatargroup",
+      "ui_avatar_avatargroupcount",
+      "ui_avatar_avatarimage"
+    ],
+    "7": [
+      "overview_alertpanel",
+      "overview_alertpanel_alertpanel",
+      "ui_alert",
+      "ui_alert_alert",
+      "ui_alert_alertaction",
+      "ui_alert_alertdescription",
+      "ui_alert_alerttitle",
+      "ui_alert_alertvariants",
+      "ui_badge",
+      "ui_badge_badge",
+      "ui_badge_badgevariants"
+    ],
+    "8": [
+      "settings_page",
+      "ui_label",
+      "ui_label_label",
+      "ui_tabs",
+      "ui_tabs_tabs",
+      "ui_tabs_tabscontent",
+      "ui_tabs_tabslist",
+      "ui_tabs_tabslistvariants",
+      "ui_tabs_tabstrigger"
+    ],
+    "9": [
+      "app_layout",
+      "app_layout_dmsans",
+      "app_layout_inter",
+      "app_layout_jetbrainsmono",
+      "app_layout_metadata",
+      "app_layout_rootlayout",
+      "ui_sonner",
+      "ui_sonner_toaster"
+    ],
+    "10": [
+      "landing_page",
+      "landing_page_landingpage",
+      "landing_page_typewritertexts"
+    ],
+    "11": [
+      "types_monitoring",
+      "types_monitoring_livepatient",
+      "types_monitoring_livestatus"
+    ],
+    "12": [
+      "types_note",
+      "types_note_dailynote",
+      "types_note_extractedentity"
+    ],
+    "13": [
+      "auth_layout",
+      "auth_layout_authlayout"
+    ],
+    "14": [
+      "landing_layout",
+      "landing_layout_landinglayout"
+    ],
+    "15": [
+      "lib_axios",
+      "lib_axios_api"
+    ],
+    "16": [
+      "lib_socket",
+      "lib_socket_socket"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07653061224489796,
+    "1": 0.09090909090909091,
+    "2": 0.1268939393939394,
+    "3": 0.10591133004926108,
+    "4": 0.12923076923076923,
+    "5": 0.14624505928853754,
+    "6": 0.17647058823529413,
+    "7": 0.2909090909090909,
+    "8": 0.3888888888888889,
+    "9": 0.2857142857142857,
+    "10": 0.6666666666666666,
+    "11": 0.6666666666666666,
+    "12": 0.6666666666666666,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0
+  },
+  "gods": [
+    {
+      "id": "lib_utils_cn",
+      "label": "cn()",
+      "degree": 101
+    },
+    {
+      "id": "ui_button_button",
+      "label": "Button()",
+      "degree": 20
+    },
+    {
+      "id": "hooks_useauth_useauth",
+      "label": "useAuth()",
+      "degree": 18
+    },
+    {
+      "id": "types_patient_patientwithlink",
+      "label": "PatientWithLink",
+      "degree": 18
+    },
+    {
+      "id": "ui_avatar_avatar",
+      "label": "Avatar()",
+      "degree": 11
+    },
+    {
+      "id": "ui_avatar_avatarfallback",
+      "label": "AvatarFallback()",
+      "degree": 11
+    },
+    {
+      "id": "ui_card_card",
+      "label": "Card()",
+      "degree": 10
+    },
+    {
+      "id": "ui_card_cardcontent",
+      "label": "CardContent()",
+      "degree": 9
+    },
+    {
+      "id": "types_alert_alert",
+      "label": "Alert",
+      "degree": 9
+    },
+    {
+      "id": "ui_card_cardheader",
+      "label": "CardHeader()",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "OverviewPage()",
+      "target": "useAuth()",
+      "source_files": [
+        "app/(dashboard)/overview/page.tsx",
+        "hooks/useAuth.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `OverviewPage()` unexpectedly reaches hub `useAuth()`"
+    },
+    {
+      "source": "PatientDetailsPage()",
+      "target": "cn()",
+      "source_files": [
+        "app/(dashboard)/patients/[patientId]/page.tsx",
+        "lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `PatientDetailsPage()` unexpectedly reaches hub `cn()`"
+    },
+    {
+      "source": "TemporalContext()",
+      "target": "cn()",
+      "source_files": [
+        "components/overview/TemporalContext.tsx",
+        "lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `TemporalContext()` unexpectedly reaches hub `cn()`"
+    },
+    {
+      "source": "PatientDetailDrawer()",
+      "target": "cn()",
+      "source_files": [
+        "components/patients/PatientDetailDrawer.tsx",
+        "lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `PatientDetailDrawer()` unexpectedly reaches hub `cn()`"
+    },
+    {
+      "source": "AlertAction()",
+      "target": "cn()",
+      "source_files": [
+        "components/ui/alert.tsx",
+        "lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `AlertAction()` unexpectedly reaches hub `cn()`"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

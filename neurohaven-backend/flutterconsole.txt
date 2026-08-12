@@ -1,0 +1,93 @@
+
+I/FlutterWebRTCPlugin(23294): getUserMedia(audio): mandatory: [], optional: [googNoiseSuppression: true, googEchoCancellation: true, echoCancellation: true, googEchoCancellation2: true, googDAEchoCancellation: true]
+D/FlutterWebRTCPlugin(23294): MediaStream id: 2868c3c8-8bc5-42f9-8d04-cbeb3514b461
+I/org.webrtc.Logging(23294): NetworkMonitor: Start monitoring with native observer 497463347616 fieldTrialsString: 
+W/org.webrtc.Logging(23294): NetworkMonitorAutoDetect: Unable to obtain permission to request a cellular network.
+I/org.webrtc.Logging(23294): NetworkMonitorAutoDetect: Network handle: 1459399610381 becomes available: 339
+I/org.webrtc.Logging(23294): NetworkMonitorAutoDetect: handle: 1459399610381 capabilities changed: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=30000Kbps TransportInfo: <SSID: <unknown 
+ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /192.168.100.129, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11n, RSSI: -38, Link speed: 144Mbps, Tx Link speed: 144Mbps, Max Supported Tx Link speed: 144Mbps, Rx Link speed: 144Mbps, Max Supported Rx Link speed: 144Mbps, Frequency: 2422MHz, Net ID: -1, Metered hint: false, score: 86, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM 
+paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -38 UnderlyingNetworks: Null]
+D/FlutterWebRTCPlugin(23294): onIceGatheringChangeGATHERING
+I/org.webrtc.Logging(23294): NetworkMonitorAutoDetect: handle: 1459399610381 link properties changed
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+D/FlutterWebRTCPlugin(23294): onIceCandidate
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: initPlayout(sampleRate=48000, channels=1, bufferSizeFactor=1.0)
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: byteBuffer.capacity: 960
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: minBufferSizeInBytes: 7696
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: createAudioTrackOnOreoOrHigher
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: nativeOutputSampleRate: 48000
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: AudioTrack: session ID: 31409, channels: 1, sample rate: 48000, max gain: 1.0
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: AudioTrack: buffer size in frames: 3848
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: AudioTrack: buffer capacity in frames: 3848
+I/org.webrtc.Logging(23294): VolumeLogger: start@[name=worker_thread - 24290, id=1542]
+I/org.webrtc.Logging(23294): VolumeLogger: audio mode is: MODE_NORMAL
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: startPlayout
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: AudioTrackThread@[name=AudioTrackJavaThread, id=1552]
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: doAudioTrackStateCallback: 0
+D/FlutterWebRTCPlugin(23294): onAddTrack
+I/flutter (23294): WebRTC ICE state: RTCIceConnectionState.RTCIceConnectionStateChecking
+E/flutter (23294): [ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: Call initialize before setting the stream
+E/flutter (23294): #0      RTCVideoRenderer.srcObject= (package:flutter_webrtc/src/native/rtc_video_renderer_impl.dart:61:28)
+E/flutter (23294): #1      ChatService._initWebRtc.<anonymous closure> (file:///D:/Work/fyp/NeuroHaven-FYP-2025-main/app-flutter/lib/core/services/chat_service.dart:865:24)
+E/flutter (23294): #2      RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:253:18)
+E/flutter (23294): #3      _RootZone.runUnaryGuarded (dart:async/zone.dart:891:10)
+E/flutter (23294): #4      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:381:11)
+E/flutter (23294): #5      _DelayedData.perform (dart:async/stream_impl.dart:573:14)
+E/flutter (23294): #6      _PendingEvents.handleNext (dart:async/stream_impl.dart:678:11)
+E/flutter (23294): #7      _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart:649:7)
+E/flutter (23294): #8      _microtaskLoop (dart:async/schedule_microtask.dart:40:35)
+E/flutter (23294): #9      _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)
+E/flutter (23294):
+D/FlutterWebRTCPlugin(23294): onConnectionChangeCONNECTING
+I/org.webrtc.Logging(23294): EglBase14Impl: Using OpenGL ES version 2
+I/org.webrtc.Logging(23294): EglRenderer: Initializing EglRenderer
+I/org.webrtc.Logging(23294): LowLatencyAudioBufferManager: Lowering AudioTrack buffer size from 3848 to 3368
+I/org.webrtc.Logging(23294): LowLatencyAudioBufferManager: Lowering AudioTrack buffer size from 3368 to 2888
+I/org.webrtc.Logging(23294): VolumeLogger: VOICE_CALL stream volume: 15 (max=15)
+I/org.webrtc.Logging(23294): LowLatencyAudioBufferManager: Lowering AudioTrack buffer size from 2888 to 2408
+I/org.webrtc.Logging(23294): LowLatencyAudioBufferManager: Lowering AudioTrack buffer size from 2408 to 1928
+I/org.webrtc.Logging(23294): LowLatencyAudioBufferManager: Lowering AudioTrack buffer size from 1928 to 1448
+I/org.webrtc.Logging(23294): LowLatencyAudioBufferManager: Lowering AudioTrack buffer size from 1448 to 968
+I/org.webrtc.Logging(23294): LowLatencyAudioBufferManager: Lowering AudioTrack buffer size from 968 to 488
+I/org.webrtc.Logging(23294): LowLatencyAudioBufferManager: Underrun detected! Increasing AudioTrack buffer size from 488 to 
+968
+I/org.webrtc.Logging(23294): EglRenderer: Duration: 4005 ms. Frames received: 0. Dropped: 0. Rendered: 0. Render fps: .0. Average render time: NA. Average swapBuffer time: NA.
+I/org.webrtc.Logging(23294): EglRenderer: Duration: 4005 ms. Frames received: 0. Dropped: 0. Rendered: 0. Render fps: .0. Average render time: NA. Average swapBuffer time: NA.
+I/org.webrtc.Logging(23294): EglRenderer: Duration: 4002 ms. Frames received: 0. Dropped: 0. Rendered: 0. Render fps: .0. Average render time: NA. Average swapBuffer time: NA.
+D/FlutterWebRTCPlugin(23294): onConnectionChangeFAILED
+I/flutter (23294): WebRTC ICE state: RTCIceConnectionState.RTCIceConnectionStateFailed
+I/org.webrtc.Logging(23294): EglRenderer: Duration: 4006 ms. Frames received: 0. Dropped: 0. Rendered: 0. Render fps: .0. Average render time: NA. Average swapBuffer time: NA.
+D/FlutterWebRTCPlugin(23294): onConnectionChangeCLOSED
+I/org.webrtc.Logging(23294): VolumeLogger: stop@[name=worker_thread - 24290, id=1542]
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: stopPlayout
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: underrun count: 1
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: stopThread
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: Stopping the AudioTrackThread...
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: AudioTrackThread has now been stopped.
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: Calling AudioTrack.stop...
+D/AudioTrack(23294): stop(3957): called with 889920 frames delivered
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: AudioTrack.stop is done.
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: doAudioTrackStateCallback: 1
+I/org.webrtc.Logging(23294): WebRtcAudioTrackExternal: releaseAudioResources
+I/org.webrtc.Logging(23294): NetworkMonitor: Stop monitoring with native observer 497463347616
+I/org.webrtc.Logging(23294): NetworkMonitorAutoDetect: Unregister network callback
+I/org.webrtc.Logging(23294): EglRenderer: Releasing.
+I/org.webrtc.Logging(23294): EglRenderer: eglBase detach and release.
+I/org.webrtc.Logging(23294): EglRenderer: Releasing done.
+I/flutter (23294): WebRTC ICE state: RTCIceConnectionState.RTCIceConnectionStateClosed
+D/FlutterJNI(23294): Sending viewport metrics to the engine.
+Lost connection to device.

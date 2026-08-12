@@ -1,0 +1,9 @@
+# Root Gitignore
+node_modules/
+.next/
+out/
+build/
+.env*
+service-account.json
+*.log
+.DS_Store

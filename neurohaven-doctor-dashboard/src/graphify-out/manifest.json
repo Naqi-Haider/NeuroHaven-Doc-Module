@@ -1,0 +1,312 @@
+{
+  "app/(auth)/layout.tsx": {
+    "mtime": 1782035551.168882,
+    "ast_hash": "60dbd0793c6413e46dd00f229c1a6508",
+    "semantic_hash": "60dbd0793c6413e46dd00f229c1a6508"
+  },
+  "app/(auth)/login/page.tsx": {
+    "mtime": 1782035973.4871583,
+    "ast_hash": "6c3791c2de5fdd974ec36f37d2df5c45",
+    "semantic_hash": "6c3791c2de5fdd974ec36f37d2df5c45"
+  },
+  "app/(auth)/register/page.tsx": {
+    "mtime": 1782035981.4384084,
+    "ast_hash": "3d34ce0ba5709d51d24b283987b8528b",
+    "semantic_hash": "3d34ce0ba5709d51d24b283987b8528b"
+  },
+  "app/(dashboard)/alerts/page.tsx": {
+    "mtime": 1782105899.5592148,
+    "ast_hash": "1ddc1163b31ee082e98ee433c1998a4c",
+    "semantic_hash": "1ddc1163b31ee082e98ee433c1998a4c"
+  },
+  "app/(dashboard)/layout.tsx": {
+    "mtime": 1782036052.1078358,
+    "ast_hash": "e9dea5dab62b9c19dbdce41ae3f83c8c",
+    "semantic_hash": "e9dea5dab62b9c19dbdce41ae3f83c8c"
+  },
+  "app/(dashboard)/overview/page.tsx": {
+    "mtime": 1782104784.9680884,
+    "ast_hash": "9fa40c6530d344ab410def07d41f60e2",
+    "semantic_hash": "9fa40c6530d344ab410def07d41f60e2"
+  },
+  "app/(dashboard)/patients/[patientId]/page.tsx": {
+    "mtime": 1783954804.0265653,
+    "ast_hash": "28a4f23c3386276298cc4ae10817a4a3",
+    "semantic_hash": "28a4f23c3386276298cc4ae10817a4a3"
+  },
+  "app/(dashboard)/patients/page.tsx": {
+    "mtime": 1782074394.0168808,
+    "ast_hash": "fd068fa668030bc3045cc6698dc82e50",
+    "semantic_hash": "fd068fa668030bc3045cc6698dc82e50"
+  },
+  "app/(dashboard)/reports/page.tsx": {
+    "mtime": 1783954188.4546518,
+    "ast_hash": "667fad64caa019c6d74faf9347d8277a",
+    "semantic_hash": "667fad64caa019c6d74faf9347d8277a"
+  },
+  "app/(dashboard)/settings/page.tsx": {
+    "mtime": 1783953991.0591447,
+    "ast_hash": "22b1fbfd4a640e2132384beb8467620a",
+    "semantic_hash": "22b1fbfd4a640e2132384beb8467620a"
+  },
+  "app/(landing)/layout.tsx": {
+    "mtime": 1782035459.4303172,
+    "ast_hash": "f06f002ce85b022840e84cc6fc297613",
+    "semantic_hash": "f06f002ce85b022840e84cc6fc297613"
+  },
+  "app/(landing)/page.tsx": {
+    "mtime": 1782072954.9008,
+    "ast_hash": "da870e47fac95bca184fe42539ced0e8",
+    "semantic_hash": "da870e47fac95bca184fe42539ced0e8"
+  },
+  "app/layout.tsx": {
+    "mtime": 1782034430.4009247,
+    "ast_hash": "5d4fe7a0e3f98b9390d33fe4e53e3710",
+    "semantic_hash": "5d4fe7a0e3f98b9390d33fe4e53e3710"
+  },
+  "components/auth/LoginForm.tsx": {
+    "mtime": 1782036341.2953136,
+    "ast_hash": "939e14b796decc911a3de2b5480463ac",
+    "semantic_hash": "939e14b796decc911a3de2b5480463ac"
+  },
+  "components/auth/RegisterForm.tsx": {
+    "mtime": 1782036354.2315955,
+    "ast_hash": "bfaeed215722d326a5c8604fd26c8379",
+    "semantic_hash": "bfaeed215722d326a5c8604fd26c8379"
+  },
+  "components/layout/DashboardShell.tsx": {
+    "mtime": 1782036042.4971793,
+    "ast_hash": "ac8fa6e4cb843230c05eb2defc6df540",
+    "semantic_hash": "ac8fa6e4cb843230c05eb2defc6df540"
+  },
+  "components/layout/Sidebar.tsx": {
+    "mtime": 1782104848.0241294,
+    "ast_hash": "b60a555084980a5f2a10401d46ee02b2",
+    "semantic_hash": "b60a555084980a5f2a10401d46ee02b2"
+  },
+  "components/layout/Topbar.tsx": {
+    "mtime": 1782106635.601507,
+    "ast_hash": "fdaa9d15553e21af4d439b9223797e0d",
+    "semantic_hash": "fdaa9d15553e21af4d439b9223797e0d"
+  },
+  "components/overview/ActiveCarePathways.tsx": {
+    "mtime": 1782104618.7851346,
+    "ast_hash": "501e4fe3fb474795e5c4cd158a7afce7",
+    "semantic_hash": "501e4fe3fb474795e5c4cd158a7afce7"
+  },
+  "components/overview/AlertPanel.tsx": {
+    "mtime": 1782074950.0175283,
+    "ast_hash": "ad205cbf6e6b250fefff02ae218e2df2",
+    "semantic_hash": "ad205cbf6e6b250fefff02ae218e2df2"
+  },
+  "components/overview/CognitiveTrendChart.tsx": {
+    "mtime": 1782074963.769789,
+    "ast_hash": "572aa825ab81d041cbd20d0789ef8295",
+    "semantic_hash": "572aa825ab81d041cbd20d0789ef8295"
+  },
+  "components/overview/MetricCard.tsx": {
+    "mtime": 1782074940.9340098,
+    "ast_hash": "74970bdc5152a3c4a67952885df83033",
+    "semantic_hash": "74970bdc5152a3c4a67952885df83033"
+  },
+  "components/overview/RecentPatientsTable.tsx": {
+    "mtime": 1782074979.60074,
+    "ast_hash": "c936de497637888175da5e309aaa83db",
+    "semantic_hash": "c936de497637888175da5e309aaa83db"
+  },
+  "components/overview/SituationStrip.tsx": {
+    "mtime": 1782104567.108996,
+    "ast_hash": "202881e6da4e77b9ec811121d96447e2",
+    "semantic_hash": "202881e6da4e77b9ec811121d96447e2"
+  },
+  "components/overview/TemporalContext.tsx": {
+    "mtime": 1782104870.4384463,
+    "ast_hash": "91af01d54a1a4854d221ff5c35425cb4",
+    "semantic_hash": "91af01d54a1a4854d221ff5c35425cb4"
+  },
+  "components/patients/PatientCard.tsx": {
+    "mtime": 1782074381.5443478,
+    "ast_hash": "0a0f91de85c19e929ff0242d0b4a531a",
+    "semantic_hash": "0a0f91de85c19e929ff0242d0b4a531a"
+  },
+  "components/patients/PatientDetailDrawer.tsx": {
+    "mtime": 1782105756.2873127,
+    "ast_hash": "57e9083cc355c12ba880cea139603d74",
+    "semantic_hash": "57e9083cc355c12ba880cea139603d74"
+  },
+  "components/patients/PatientFilters.tsx": {
+    "mtime": 1782074371.7024245,
+    "ast_hash": "7b0a29774743c5e786a6ad391876e256",
+    "semantic_hash": "7b0a29774743c5e786a6ad391876e256"
+  },
+  "components/shared/EmptyState.tsx": {
+    "mtime": 1782073513.8462393,
+    "ast_hash": "b37fa6933c1e7f0f681e4fa27812d175",
+    "semantic_hash": "b37fa6933c1e7f0f681e4fa27812d175"
+  },
+  "components/shared/PageHeader.tsx": {
+    "mtime": 1782073502.889779,
+    "ast_hash": "4e9ebed0e94e97cec40bc86bc56d70d3",
+    "semantic_hash": "4e9ebed0e94e97cec40bc86bc56d70d3"
+  },
+  "components/shared/RiskBadge.tsx": {
+    "mtime": 1782073508.4240932,
+    "ast_hash": "42bc4658bed427db6952a941f28a0bba",
+    "semantic_hash": "42bc4658bed427db6952a941f28a0bba"
+  },
+  "components/ui/alert.tsx": {
+    "mtime": 1782033958.6794262,
+    "ast_hash": "739c28799fae98b4fa01132494788e85",
+    "semantic_hash": "739c28799fae98b4fa01132494788e85"
+  },
+  "components/ui/avatar.tsx": {
+    "mtime": 1782034100.7645802,
+    "ast_hash": "b48244919ef33575fecf5509063b7310",
+    "semantic_hash": "b48244919ef33575fecf5509063b7310"
+  },
+  "components/ui/badge.tsx": {
+    "mtime": 1782034101.0502043,
+    "ast_hash": "633c33997e6137921ae433dd2dd0cb31",
+    "semantic_hash": "633c33997e6137921ae433dd2dd0cb31"
+  },
+  "components/ui/button.tsx": {
+    "mtime": 1782034101.3784704,
+    "ast_hash": "37ff09090166aa7d6fae96e0b081e492",
+    "semantic_hash": "37ff09090166aa7d6fae96e0b081e492"
+  },
+  "components/ui/card.tsx": {
+    "mtime": 1782074254.6958525,
+    "ast_hash": "caa2e96142338a6c915d1476586e9874",
+    "semantic_hash": "caa2e96142338a6c915d1476586e9874"
+  },
+  "components/ui/dialog.tsx": {
+    "mtime": 1782034105.788764,
+    "ast_hash": "e01132db6e9067b7b8cc2e322fdd34ff",
+    "semantic_hash": "e01132db6e9067b7b8cc2e322fdd34ff"
+  },
+  "components/ui/dropdown-menu.tsx": {
+    "mtime": 1782034102.2965088,
+    "ast_hash": "63fc04368c0f92980d3ab4ae34f01a18",
+    "semantic_hash": "63fc04368c0f92980d3ab4ae34f01a18"
+  },
+  "components/ui/form.tsx": {
+    "mtime": 1782034358.1946385,
+    "ast_hash": "036648a0fb76882152e103e6b087a4d1",
+    "semantic_hash": "036648a0fb76882152e103e6b087a4d1"
+  },
+  "components/ui/input.tsx": {
+    "mtime": 1782034102.5981424,
+    "ast_hash": "2b0e9e810580f227dd255d9b78a83835",
+    "semantic_hash": "2b0e9e810580f227dd255d9b78a83835"
+  },
+  "components/ui/label.tsx": {
+    "mtime": 1782034102.9186432,
+    "ast_hash": "e7e0c4ad98f3485ecd3c0ca516d0a8bf",
+    "semantic_hash": "e7e0c4ad98f3485ecd3c0ca516d0a8bf"
+  },
+  "components/ui/progress.tsx": {
+    "mtime": 1782036461.446766,
+    "ast_hash": "36ba92c85d3a7823e32df13d5f62e18e",
+    "semantic_hash": "36ba92c85d3a7823e32df13d5f62e18e"
+  },
+  "components/ui/select.tsx": {
+    "mtime": 1782034103.730661,
+    "ast_hash": "611b5699ced6aad54c9a0e8cb865da7f",
+    "semantic_hash": "611b5699ced6aad54c9a0e8cb865da7f"
+  },
+  "components/ui/separator.tsx": {
+    "mtime": 1782034104.0172846,
+    "ast_hash": "f57449eae78fbd87d99e4edc45ab3c1e",
+    "semantic_hash": "f57449eae78fbd87d99e4edc45ab3c1e"
+  },
+  "components/ui/sheet.tsx": {
+    "mtime": 1782034106.117527,
+    "ast_hash": "136091919ca01aa135e9413cc05b2d23",
+    "semantic_hash": "136091919ca01aa135e9413cc05b2d23"
+  },
+  "components/ui/skeleton.tsx": {
+    "mtime": 1782033957.1505811,
+    "ast_hash": "0e6e825c43d858d98c9903f4da975382",
+    "semantic_hash": "0e6e825c43d858d98c9903f4da975382"
+  },
+  "components/ui/sonner.tsx": {
+    "mtime": 1782034264.301834,
+    "ast_hash": "f46214bc2a6a5153a6e04fad523d5587",
+    "semantic_hash": "f46214bc2a6a5153a6e04fad523d5587"
+  },
+  "components/ui/table.tsx": {
+    "mtime": 1782033957.3951735,
+    "ast_hash": "44f87727e60080863edb00fdd2fcd8da",
+    "semantic_hash": "44f87727e60080863edb00fdd2fcd8da"
+  },
+  "components/ui/tabs.tsx": {
+    "mtime": 1782034105.160347,
+    "ast_hash": "485d47f9e6f866e564685e6584e1e747",
+    "semantic_hash": "485d47f9e6f866e564685e6584e1e747"
+  },
+  "hooks/useAuth.ts": {
+    "mtime": 1782043580.4106913,
+    "ast_hash": "d17a16fa88ab21c1f7ad27fc2e07e807",
+    "semantic_hash": "d17a16fa88ab21c1f7ad27fc2e07e807"
+  },
+  "lib/axios.ts": {
+    "mtime": 1782035375.1358879,
+    "ast_hash": "1fb6da2c8029ef27910bb2146c43287e",
+    "semantic_hash": "1fb6da2c8029ef27910bb2146c43287e"
+  },
+  "lib/socket.ts": {
+    "mtime": 1782035383.0520027,
+    "ast_hash": "d63a512e14428f003e03fab582f996b0",
+    "semantic_hash": "d63a512e14428f003e03fab582f996b0"
+  },
+  "lib/supabase.ts": {
+    "mtime": 1782035367.2561343,
+    "ast_hash": "42da30e02d88419054a3e35e46eae200",
+    "semantic_hash": "42da30e02d88419054a3e35e46eae200"
+  },
+  "lib/utils.ts": {
+    "mtime": 1782033627.9774733,
+    "ast_hash": "5a6fd53fdcf2be529e9cc0b718fde352",
+    "semantic_hash": "5a6fd53fdcf2be529e9cc0b718fde352"
+  },
+  "stores/authStore.ts": {
+    "mtime": 1782040660.9949622,
+    "ast_hash": "d4280adf815324bf1f81b417b984bb01",
+    "semantic_hash": "d4280adf815324bf1f81b417b984bb01"
+  },
+  "types/alert.ts": {
+    "mtime": 1782035514.12692,
+    "ast_hash": "d58ff8bb4c23b80fe74eb0b0eff2b20f",
+    "semantic_hash": "d58ff8bb4c23b80fe74eb0b0eff2b20f"
+  },
+  "types/doctor.ts": {
+    "mtime": 1782035482.9388852,
+    "ast_hash": "130e6dd8bcc80dabe91c90bacb53613a",
+    "semantic_hash": "130e6dd8bcc80dabe91c90bacb53613a"
+  },
+  "types/game.ts": {
+    "mtime": 1782035498.8045995,
+    "ast_hash": "50c266ffd3b3a7a9796c3ee70267bb58",
+    "semantic_hash": "50c266ffd3b3a7a9796c3ee70267bb58"
+  },
+  "types/monitoring.ts": {
+    "mtime": 1782035531.2743723,
+    "ast_hash": "6d397114eb5fd9411e22b67b8363aa57",
+    "semantic_hash": "6d397114eb5fd9411e22b67b8363aa57"
+  },
+  "types/note.ts": {
+    "mtime": 1782035506.3640144,
+    "ast_hash": "be313094b982015b674b2a648de26399",
+    "semantic_hash": "be313094b982015b674b2a648de26399"
+  },
+  "types/patient.ts": {
+    "mtime": 1782035491.0946293,
+    "ast_hash": "72baad200cf3200fd9256550c316108f",
+    "semantic_hash": "72baad200cf3200fd9256550c316108f"
+  },
+  "types/report.ts": {
+    "mtime": 1782035522.3188412,
+    "ast_hash": "fd64ea58f29b29770842dc04b6e0c842",
+    "semantic_hash": "fd64ea58f29b29770842dc04b6e0c842"
+  }
+}
