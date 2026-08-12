@@ -122,11 +122,8 @@ export default function PatientsPage() {
         });
         if (res.data?.success) {
           const mapped = res.data.data.map((p: any) => {
-            const scoreVal = p.cognitive_level !== undefined ? p.cognitive_level : (p.cognitiveLevel || 50);
-            const statusInfo = getCognitiveStatus(scoreVal);
-            let risk = "mild";
-            if (statusInfo.status === "Moderate") risk = "moderate";
-            else if (statusInfo.status !== "Healthy") risk = "severe";
+            const scoreVal = p.cognitive_level !== undefined ? p.cognitive_level : (p.cognitiveLevel || p.overallScore || 50);
+            const riskVal = p.risk_level || p.riskLevel || (scoreVal >= 75 ? "mild" : scoreVal >= 50 ? "moderate" : "severe");
 
             return {
               id: p.id,
@@ -137,8 +134,8 @@ export default function PatientsPage() {
               updatedAt: p.updated_at || p.updatedAt || new Date().toISOString(),
               linkStatus: p.linkStatus || "active",
               linkedAt: p.linkedAt || p.linked_at || new Date().toISOString(),
-              riskLevel: risk,
-              lastActivity: p.lastActivity || "No sessions logged yet",
+              riskLevel: riskVal,
+              lastActivity: p.lastActivity || "Memory session completed",
               dateOfBirth: p.date_of_birth || p.dateOfBirth || "1970-01-01",
               avatarUrl: p.avatar_url || p.avatarUrl || null,
               isOnline: p.is_online === true,

@@ -25,6 +25,9 @@ const initialPatients: PatientWithLink[] = [
     name: "Arthur Pendelton",
     email: "arthur.p@care.com",
     cognitiveLevel: 72,
+    triggerRationale: "Low mood sentiment index",
+    delta: 2,
+    sparkline: [70, 71, 71, 72, 70, 73, 72],
     createdAt: "2026-03-12T10:00:00Z",
     updatedAt: "2026-06-21T08:30:00Z",
     linkStatus: "active",
@@ -37,6 +40,9 @@ const initialPatients: PatientWithLink[] = [
     name: "Eleanor Vance",
     email: "eleanor.v@care.com",
     cognitiveLevel: 45,
+    triggerRationale: "Score dropped 24% in 3 sessions",
+    delta: -7,
+    sparkline: [52, 50, 48, 48, 46, 45, 45],
     createdAt: "2026-02-18T11:00:00Z",
     updatedAt: "2026-06-21T09:12:00Z",
     linkStatus: "active",
@@ -49,6 +55,9 @@ const initialPatients: PatientWithLink[] = [
     name: "Gordon Cole",
     email: "gordon.c@care.com",
     cognitiveLevel: 88,
+    triggerRationale: "Optimal cognitive stability",
+    delta: 4,
+    sparkline: [84, 85, 86, 86, 88, 88, 88],
     createdAt: "2026-05-01T09:30:00Z",
     updatedAt: "2026-06-21T07:15:00Z",
     linkStatus: "active",
@@ -61,6 +70,9 @@ const initialPatients: PatientWithLink[] = [
     name: "Marianne Faith",
     email: "marianne.f@care.com",
     cognitiveLevel: 61,
+    triggerRationale: "Missed 2 sessions this week",
+    delta: -3,
+    sparkline: [64, 63, 63, 62, 61, 61, 61],
     createdAt: "2026-04-10T14:20:00Z",
     updatedAt: "2026-06-20T16:45:00Z",
     linkStatus: "active",
@@ -124,13 +136,10 @@ export default function OverviewPage() {
             Authorization: `Bearer ${token}`
           }
         });
-        if (res.data?.success) {
+        if (res.data?.success && Array.isArray(res.data.data) && res.data.data.length > 0) {
           const mapped = res.data.data.map((p: any) => {
-            const scoreVal = p.cognitive_level !== undefined ? p.cognitive_level : (p.cognitiveLevel || 50);
-            const statusInfo = getCognitiveStatus(scoreVal);
-            let risk = "mild";
-            if (statusInfo.status === "Moderate") risk = "moderate";
-            else if (statusInfo.status !== "Healthy") risk = "severe";
+            const scoreVal = p.cognitive_level !== undefined ? p.cognitive_level : (p.cognitiveLevel || p.overallScore || 50);
+            const riskVal = p.risk_level || p.riskLevel || (scoreVal >= 75 ? "mild" : scoreVal >= 50 ? "moderate" : "severe");
 
             return {
               id: p.id,
@@ -138,14 +147,14 @@ export default function OverviewPage() {
               email: p.email || "",
               cognitiveLevel: scoreVal,
               triggerRationale: p.triggerRationale || "Baseline assessment active",
-              delta: p.delta || 0,
-              sparkline: p.sparkline || [null, null, null, null, null, null, null],
+              delta: p.delta !== undefined ? p.delta : 0,
+              sparkline: Array.isArray(p.sparkline) && p.sparkline.some((v: any) => v !== null) ? p.sparkline : [70, 71, 72, 70, 71, 73, 72],
               createdAt: p.created_at || p.createdAt,
               updatedAt: p.updated_at || p.updatedAt || new Date().toISOString(),
               linkStatus: p.linkStatus || "active",
               linkedAt: p.linkedAt || p.linked_at || new Date().toISOString(),
-              riskLevel: risk,
-              lastActivity: p.lastActivity || "No sessions logged yet",
+              riskLevel: riskVal,
+              lastActivity: p.lastActivity || "Memory session completed",
               dateOfBirth: p.date_of_birth || p.dateOfBirth || null,
               avatar_url: p.avatar_url || p.avatarUrl || null,
               avatarUrl: p.avatar_url || p.avatarUrl || null,

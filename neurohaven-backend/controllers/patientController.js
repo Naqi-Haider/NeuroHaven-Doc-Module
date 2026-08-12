@@ -467,10 +467,43 @@ const mockPatientNotes = {
  */
 const getPatients = async (req, res, next) => {
   if (isMock) {
-    const mockPatientCohort = Object.keys(mockPatientDatabase).map((key) => ({
-      id: key,
-      ...mockPatientDatabase[key],
-    }));
+    const sparklines = {
+      "pat-1": [70, 71, 71, 72, 70, 73, 72],
+      "pat-2": [52, 50, 48, 48, 46, 45, 45],
+      "pat-3": [84, 85, 86, 86, 88, 88, 88],
+      "pat-4": [64, 63, 63, 62, 61, 61, 61],
+    };
+    const deltas = { "pat-1": 2, "pat-2": -7, "pat-3": 4, "pat-4": -3 };
+    const rationales = {
+      "pat-1": "Low mood sentiment index",
+      "pat-2": "Score dropped 24% in 3 sessions",
+      "pat-3": "Optimal cognitive stability",
+      "pat-4": "Missed 2 sessions this week",
+    };
+    const lastActivities = {
+      "pat-1": "Memory Match Session — 2h ago",
+      "pat-2": "Word Recall Session — 45m ago",
+      "pat-3": "Pattern Recognition Session — 4h ago",
+      "pat-4": "Word Recall Session — 1d ago",
+    };
+
+    const mockPatientCohort = Object.keys(mockPatientDatabase).map((key) => {
+      const p = mockPatientDatabase[key];
+      const score = p.overallScore || 50;
+      return {
+        id: key,
+        ...p,
+        cognitive_level: score,
+        cognitiveLevel: score,
+        overallScore: score,
+        risk_level: p.riskLevel || "moderate",
+        riskLevel: p.riskLevel || "moderate",
+        triggerRationale: rationales[key] || "Baseline assessment active",
+        delta: deltas[key] !== undefined ? deltas[key] : 0,
+        sparkline: sparklines[key] || [null, null, null, null, null, null, null],
+        lastActivity: lastActivities[key] || "Memory session completed",
+      };
+    });
     return res.status(200).json({ success: true, data: mockPatientCohort });
   }
 

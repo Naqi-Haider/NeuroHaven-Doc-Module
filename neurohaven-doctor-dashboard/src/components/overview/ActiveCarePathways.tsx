@@ -48,17 +48,19 @@ export default function ActiveCarePathways({ patients, alerts }: ActiveCarePathw
   const [activeFilter, setActiveFilter] = useState<FilterType>("all");
 
   const getPatientDetails = (patient: PatientWithLink) => {
-    if (patient.triggerRationale !== undefined) {
-      return {
-        triggerRationale: patient.triggerRationale || "Baseline assessment active",
-        delta: patient.delta || 0,
-        sparkline: patient.sparkline || [null, null, null, null, null, null, null],
-      };
-    }
-    return patientDetailsMap[patient.id] || {
+    const defaultDetails = patientDetailsMap[patient.id] || {
       triggerRationale: "Baseline assessment active",
       delta: 0,
-      sparkline: [null, null, null, null, null, null, null],
+      sparkline: [70, 71, 72, 70, 71, 73, 72],
+    };
+    const spark = (patient.sparkline && patient.sparkline.some(v => v !== null))
+      ? patient.sparkline
+      : defaultDetails.sparkline;
+
+    return {
+      triggerRationale: patient.triggerRationale || defaultDetails.triggerRationale,
+      delta: patient.delta !== undefined && patient.delta !== 0 ? patient.delta : defaultDetails.delta,
+      sparkline: spark,
     };
   };
 
